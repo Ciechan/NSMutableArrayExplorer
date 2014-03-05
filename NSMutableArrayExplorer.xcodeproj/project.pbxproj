@@ -1,0 +1,308 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		982CB3EB18C692610038E015 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 982CB3EA18C692610038E015 /* Foundation.framework */; };
+		982CB3ED18C692610038E015 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 982CB3EC18C692610038E015 /* CoreGraphics.framework */; };
+		982CB3EF18C692610038E015 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 982CB3EE18C692610038E015 /* UIKit.framework */; };
+		982CB3F518C692610038E015 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 982CB3F318C692610038E015 /* InfoPlist.strings */; };
+		982CB3F718C692610038E015 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 982CB3F618C692610038E015 /* main.m */; };
+		982CB3FB18C692610038E015 /* BCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 982CB3FA18C692610038E015 /* BCAppDelegate.m */; };
+		982CB41B18C6929B0038E015 /* BCExploredMutableArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 982CB41A18C6929B0038E015 /* BCExploredMutableArray.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		982CB3E718C692610038E015 /* NSMutableArrayExplorer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NSMutableArrayExplorer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		982CB3EA18C692610038E015 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		982CB3EC18C692610038E015 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		982CB3EE18C692610038E015 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		982CB3F218C692610038E015 /* NSMutableArrayExplorer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NSMutableArrayExplorer-Info.plist"; sourceTree = "<group>"; };
+		982CB3F418C692610038E015 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		982CB3F618C692610038E015 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		982CB3F818C692610038E015 /* NSMutableArrayExplorer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSMutableArrayExplorer-Prefix.pch"; sourceTree = "<group>"; };
+		982CB3F918C692610038E015 /* BCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BCAppDelegate.h; sourceTree = "<group>"; };
+		982CB3FA18C692610038E015 /* BCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BCAppDelegate.m; sourceTree = "<group>"; };
+		982CB40318C692610038E015 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		982CB41918C6929B0038E015 /* BCExploredMutableArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BCExploredMutableArray.h; sourceTree = "<group>"; };
+		982CB41A18C6929B0038E015 /* BCExploredMutableArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BCExploredMutableArray.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		982CB3E418C692610038E015 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				982CB3ED18C692610038E015 /* CoreGraphics.framework in Frameworks */,
+				982CB3EF18C692610038E015 /* UIKit.framework in Frameworks */,
+				982CB3EB18C692610038E015 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		982CB3DE18C692610038E015 = {
+			isa = PBXGroup;
+			children = (
+				982CB3F018C692610038E015 /* NSMutableArrayExplorer */,
+				982CB3E918C692610038E015 /* Frameworks */,
+				982CB3E818C692610038E015 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		982CB3E818C692610038E015 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				982CB3E718C692610038E015 /* NSMutableArrayExplorer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		982CB3E918C692610038E015 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				982CB3EA18C692610038E015 /* Foundation.framework */,
+				982CB3EC18C692610038E015 /* CoreGraphics.framework */,
+				982CB3EE18C692610038E015 /* UIKit.framework */,
+				982CB40318C692610038E015 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		982CB3F018C692610038E015 /* NSMutableArrayExplorer */ = {
+			isa = PBXGroup;
+			children = (
+				982CB3F918C692610038E015 /* BCAppDelegate.h */,
+				982CB3FA18C692610038E015 /* BCAppDelegate.m */,
+				982CB41918C6929B0038E015 /* BCExploredMutableArray.h */,
+				982CB41A18C6929B0038E015 /* BCExploredMutableArray.m */,
+				982CB3F118C692610038E015 /* Supporting Files */,
+			);
+			path = NSMutableArrayExplorer;
+			sourceTree = "<group>";
+		};
+		982CB3F118C692610038E015 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				982CB3F218C692610038E015 /* NSMutableArrayExplorer-Info.plist */,
+				982CB3F318C692610038E015 /* InfoPlist.strings */,
+				982CB3F618C692610038E015 /* main.m */,
+				982CB3F818C692610038E015 /* NSMutableArrayExplorer-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		982CB3E618C692610038E015 /* NSMutableArrayExplorer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 982CB41318C692620038E015 /* Build configuration list for PBXNativeTarget "NSMutableArrayExplorer" */;
+			buildPhases = (
+				982CB3E318C692610038E015 /* Sources */,
+				982CB3E418C692610038E015 /* Frameworks */,
+				982CB3E518C692610038E015 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NSMutableArrayExplorer;
+			productName = NSMutableArrayExplorer;
+			productReference = 982CB3E718C692610038E015 /* NSMutableArrayExplorer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		982CB3DF18C692610038E015 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BC;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Bartosz Ciechanowski";
+			};
+			buildConfigurationList = 982CB3E218C692610038E015 /* Build configuration list for PBXProject "NSMutableArrayExplorer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 982CB3DE18C692610038E015;
+			productRefGroup = 982CB3E818C692610038E015 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				982CB3E618C692610038E015 /* NSMutableArrayExplorer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		982CB3E518C692610038E015 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				982CB3F518C692610038E015 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		982CB3E318C692610038E015 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				982CB41B18C6929B0038E015 /* BCExploredMutableArray.m in Sources */,
+				982CB3F718C692610038E015 /* main.m in Sources */,
+				982CB3FB18C692610038E015 /* BCAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		982CB3F318C692610038E015 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				982CB3F418C692610038E015 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		982CB41118C692620038E015 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		982CB41218C692620038E015 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		982CB41418C692620038E015 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NSMutableArrayExplorer/NSMutableArrayExplorer-Prefix.pch";
+				INFOPLIST_FILE = "NSMutableArrayExplorer/NSMutableArrayExplorer-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		982CB41518C692620038E015 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NSMutableArrayExplorer/NSMutableArrayExplorer-Prefix.pch";
+				INFOPLIST_FILE = "NSMutableArrayExplorer/NSMutableArrayExplorer-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		982CB3E218C692610038E015 /* Build configuration list for PBXProject "NSMutableArrayExplorer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				982CB41118C692620038E015 /* Debug */,
+				982CB41218C692620038E015 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		982CB41318C692620038E015 /* Build configuration list for PBXNativeTarget "NSMutableArrayExplorer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				982CB41418C692620038E015 /* Debug */,
+				982CB41518C692620038E015 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 982CB3DF18C692610038E015 /* Project object */;
+}
